@@ -1,0 +1,5 @@
+# swap two files
+
+mv $1 $1-temp
+mv $2 $1
+mv $1-temp $2
